@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+data/
+debug/
+logs/
+test_project/
+@AutomationLog.txt
+config.json.bak
+*.egg-info/

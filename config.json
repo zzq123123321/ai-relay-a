@@ -1,0 +1,70 @@
+{
+  "debug": false,
+  "threshold": 0.85,
+  "trigger_threshold": 0.9,
+  "scan_interval": 1,
+  "clipboard_verify_delay": 0.5,
+  "clipboard_retry_count": 2,
+  "bottom_detection_timeout": 10,
+  "interaction_step_delay": 0.5,
+  "execution_start_timeout": 10,
+  "scroll_wait": 0.8,
+  "schema_version": 3,
+  "surface_templates": {
+    "chatgpt_web": {
+      "trigger": "templates/trigger.png",
+      "bottom": "templates/bottom.png",
+      "copy": "templates/copy.png",
+      "stop": "templates/stop.png"
+    }
+  },
+  "surfaces": {
+    "chatgpt_web": {
+      "input_box": {
+        "x": 438,
+        "y": 961,
+        "w": 300,
+        "h": 40,
+        "click_x": 588,
+        "click_y": 971
+      },
+      "trigger": {
+        "x": 1340,
+        "y": 945,
+        "w": 46,
+        "h": 48,
+        "click_x": 1363,
+        "click_y": 969
+      },
+      "bottom": {
+        "x": 900,
+        "y": 871,
+        "w": 33,
+        "h": 32,
+        "click_x": 916,
+        "click_y": 887
+      },
+      "copy": {
+        "x": 431,
+        "y": 803,
+        "w": 32,
+        "h": 28,
+        "click_x": 447,
+        "click_y": 817
+      }
+    }
+  },
+  "surface_meta": {
+    "chatgpt_web": {
+      "window_class": "Chrome_WidgetWin_1",
+      "window_title": "ChatGPT - B端自动化 - Google Chrome",
+      "window_rect": [
+        -8,
+        -8,
+        1928,
+        1040
+      ],
+      "dpi": 96
+    }
+  }
+}
