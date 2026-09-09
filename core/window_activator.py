@@ -53,6 +53,8 @@ def send_to_input(
     pyautogui.hotkey("ctrl", "v")
     time.sleep(0.5)
     pyautogui.press("enter")
+    time.sleep(2)
+    pyautogui.press("enter")
     diag("A: 已发送ChatGPT", f"length={len(content)}")
 
     return True, f"已发送到ChatGPT (长度={len(content)})"
